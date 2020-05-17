@@ -1,4 +1,13 @@
+@import '../../styles/media-breakpoints.scss';
+
 .layout {
-  padding: 5rem 20rem;
+  padding: 5rem;
   height: 100%;
+  max-width: 130rem;
+  margin: 0 auto;
+  min-width: 36rem;
+
+  @media (max-width: $screen-xs) {
+    padding: 3rem;
+  }
 }

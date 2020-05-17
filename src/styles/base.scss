@@ -23,6 +23,10 @@ h1 {
   font-weight: 900;
   color: $black;
   line-height: 1.5;
+
+  @media (max-width: $screen-xs) {
+    font-size: 5rem;
+  }
 }
 
 h2 {
@@ -30,6 +34,10 @@ h2 {
   font-weight: 700;
   color: $black;
   line-height: 1.5;
+
+  @media (max-width: $screen-xs) {
+    font-size: 2.5rem;
+  }
 }
 
 a {
