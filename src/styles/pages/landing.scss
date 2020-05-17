@@ -1,0 +1,10 @@
+.welcome {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  
+  .welcome__accent {
+    color: $gray;
+  }
+}

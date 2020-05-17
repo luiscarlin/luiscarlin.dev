@@ -1,11 +1,13 @@
 import React from "react"
+import Header from "../Header"
 import styles from "./layout.module.scss"
 
 const Layout = ({ children }) => {
   return (
-    <>
-      <main className={styles.main}>{children}</main>
-    </>
+    <div className={styles.layout}>
+      <Header />
+      <main>{children}</main>
+    </div>
   )
 }
 
