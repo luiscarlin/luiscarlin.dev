@@ -9,7 +9,7 @@ const links = [
   { url: "/projects", text: "projects" },
 ]
 
-const Header = () => {
+const Header = ({ pathname }) => {
   return (
     <header className={styles.header}>
       <Link to="/">
@@ -17,13 +17,15 @@ const Header = () => {
       </Link>
       <nav>
         <ul>
-          {links.map((link, index) => (
-            <li key={index}>
-              <Link to={link.url}>
-                <h2 className="secondary">{link.text}</h2>
-              </Link>
-            </li>
-          ))}
+          {links
+            .filter(link => link.url !== pathname)
+            .map((link, index) => (
+              <li key={index}>
+                <Link to={link.url}>
+                  <h2 className="secondary">{link.text}</h2>
+                </Link>
+              </li>
+            ))}
         </ul>
       </nav>
     </header>
