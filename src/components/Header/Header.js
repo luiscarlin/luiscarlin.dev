@@ -18,7 +18,7 @@ const Header = ({ pathname }) => {
       <nav>
         <ul>
           {links
-            .filter(link => link.url !== pathname)
+            .filter(link => !pathname.startsWith(link.url))
             .map((link, index) => (
               <li key={index}>
                 <Link to={link.url}>
