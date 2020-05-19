@@ -15,14 +15,16 @@
     background-repeat: no-repeat;
     background-position: 0 4rem;
 
-    &:hover {
-      cursor: pointer;
-      background-image: linear-gradient(
-        to bottom,
-      #369CA5 0%,
-        #369CA5 100%
-      );
-      background-position: 0 2rem;
+    @media (hover) {
+      &:hover {
+        cursor: pointer;
+        background-image: linear-gradient(
+          to bottom,
+        #369CA5 0%,
+          #369CA5 100%
+        );
+        background-position: 0 2rem;
+      }
     }
   }
 }
