@@ -23,8 +23,8 @@ module.exports = {
         short_name: `LuisCarlin.dev`,
         description: `My personal website`,
         start_url: `/`,
-        background_color: "#fff",
-        theme_color: `#369CA5`,
+        background_color: `#fff`,
+        theme_color: `#fff`,
         display: `minimal-ui`,
         icon: `src/images/logo.svg`, // This path is relative to the root of the site.
       },
