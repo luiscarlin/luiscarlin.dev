@@ -3,8 +3,10 @@ import SocialMediaBar from "../components/SocialMediaBar"
 
 const Landing = () => (
   <div className="welcome">
-    <h1>I&rsquo;m Luis.</h1>
-    <h1 className="secondary">Web & Mobile developer.</h1>
+    <h4>Hi! I&rsquo;m</h4>
+    <h1>Luis Carlin</h1>
+    <h2 className="secondary">Full stack Web & Mobile developer</h2>
+    <h4 className="secondary">I build things with React and React Native</h4>
     <div className="welcome__social-media">
       <SocialMediaBar />
     </div>

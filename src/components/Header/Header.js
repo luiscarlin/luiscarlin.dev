@@ -22,7 +22,7 @@ const Header = ({ pathname }) => {
             .map((link, index) => (
               <li key={index}>
                 <Link to={link.url}>
-                  <h2>{link.text}</h2>
+                  <h3>{link.text}</h3>
                 </Link>
               </li>
             ))}

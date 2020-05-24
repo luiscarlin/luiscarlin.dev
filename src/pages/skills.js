@@ -1,3 +1,3 @@
 import React from "react"
 
-export default () => <h1>Skills</h1>
+export default () => <h1>skills</h1>
