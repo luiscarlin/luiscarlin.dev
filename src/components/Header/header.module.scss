@@ -1,4 +1,5 @@
 @import '../../styles/colors.scss';
+@import '../../styles/media-breakpoints.scss';
 
 .header {
   display: flex;
@@ -11,6 +12,10 @@
 
   li {
     margin-bottom: 2rem;
+
+    @media (max-width: $screen-xs) {
+      margin-bottom: 1rem;
+    }
   }
 
   h3 {
@@ -20,13 +25,13 @@
     background-image: linear-gradient(180deg,$lightseagreen 0,$lightseagreen);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: 0 3.3rem;
+    background-position: 0 1.2em;
 
     @media (hover) {
       &:hover {
         cursor: pointer;
         background-image: linear-gradient(to bottom, $lightseagreen 0%, $lightseagreen 100%);
-        background-position: 0 1rem;
+        background-position: 0 0.5em;
       }
     }
   }
