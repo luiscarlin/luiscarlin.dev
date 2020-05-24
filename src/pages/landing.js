@@ -1,4 +1,5 @@
 import React from "react"
+import ReactLogo from "../components/ReactLogo"
 import SocialMediaBar from "../components/SocialMediaBar"
 
 const Landing = () => (
@@ -6,7 +7,13 @@ const Landing = () => (
     <h4>Hi! I&rsquo;m</h4>
     <h1>Luis Carlin</h1>
     <h2 className="secondary">Full stack Web & Mobile developer</h2>
-    <h4 className="secondary">I build things with React and React Native</h4>
+    <div className="welcome__react_message">
+      <h4 className="secondary">
+        I build things with <a href="https://react.org">React</a>
+      </h4>
+      <ReactLogo />
+    </div>
+
     <div className="welcome__social-media">
       <SocialMediaBar />
     </div>
