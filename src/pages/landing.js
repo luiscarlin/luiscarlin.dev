@@ -9,7 +9,14 @@ const Landing = () => (
     <h2 className="secondary">Full stack Web & Mobile developer</h2>
     <div className="welcome__react_message">
       <h4 className="secondary">
-        I build things with <a href="https://react.org">React</a>
+        I build things with{" "}
+        <a
+          href="https://reactjs.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          React
+        </a>
       </h4>
       <ReactLogo />
     </div>
