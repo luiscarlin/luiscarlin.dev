@@ -1,4 +1,5 @@
 import React from "react"
+import PageTitle from "../components/Layout/PageTitle"
 import TimelineCard from "../components/TimelineCard"
 
 const content = [
@@ -23,11 +24,11 @@ const content = [
 ]
 export default () => {
   return (
-    <div className="experience-wrapper">
-      <div className="title-wrapper">
-        <h1>experience</h1>
-      </div>
-      <div className="content">{content.map(TimelineCard)}</div>
-    </div>
+    <>
+      <PageTitle>experience</PageTitle>
+      {content.map((entry, index) => (
+        <TimelineCard {...entry} key={index} />
+      ))}
+    </>
   )
 }

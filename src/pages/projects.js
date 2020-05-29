@@ -1,3 +1,8 @@
 import React from "react"
+import PageTitle from "../components/Layout/PageTitle"
 
-export default () => <h1>Projects</h1>
+export default () => (
+  <>
+    <PageTitle>projects</PageTitle>
+  </>
+)

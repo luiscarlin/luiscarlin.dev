@@ -1,9 +1,9 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import Header from "../Header"
+import Header from "../../Header"
 import "./layout.scss"
 
-const Layout = ({ children, location }) => {
+export default ({ children, location }) => {
   return (
     <div className="layout">
       <Helmet>
@@ -15,5 +15,3 @@ const Layout = ({ children, location }) => {
     </div>
   )
 }
-
-export default Layout
