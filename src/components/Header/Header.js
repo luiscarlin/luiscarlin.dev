@@ -1,17 +1,16 @@
 import { Link } from "gatsby"
 import React from "react"
-import styles from "./header.module.scss"
+import "./header.scss"
 import Logo from "./logo.inline.svg"
 
 const links = [
-  { url: "/skills", text: "skills" },
   { url: "/experience", text: "experience" },
   { url: "/projects", text: "projects" },
 ]
 
 const Header = ({ pathname }) => {
   return (
-    <header className={styles.header}>
+    <header className={"header"}>
       <Link to="/">
         <Logo />
       </Link>

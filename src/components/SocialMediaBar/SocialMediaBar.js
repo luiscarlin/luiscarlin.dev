@@ -5,7 +5,7 @@ import {
   FaLinkedin,
   FaTwitterSquare,
 } from "react-icons/fa"
-import styles from "./social-media.module.scss"
+import "./social-media.scss"
 
 export default () => {
   const socialMedia = [
@@ -28,7 +28,7 @@ export default () => {
   ]
 
   return (
-    <div className={styles.socialMediaWrapper}>
+    <div className={"social-media-bar"}>
       {socialMedia.map((site, index) => (
         <a
           key={index}
