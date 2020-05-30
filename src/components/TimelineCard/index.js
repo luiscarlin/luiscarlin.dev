@@ -6,7 +6,7 @@ export default ({ date, title, text, tech }) => {
   return (
     <div className="timeline-card">
       <div className="date-container">
-        <p className="secondary">{date}</p>
+        <h5 className="secondary">{date}</h5>
       </div>
       <div className="content-container">
         <h4 className="title">{title}</h4>

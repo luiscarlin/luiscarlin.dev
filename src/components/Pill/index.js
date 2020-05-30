@@ -4,7 +4,7 @@ import "./pill.scss"
 export default ({ text }) => {
   return (
     <div className="pill-wrapper">
-      <p>{text}</p>
+      <h6>{text}</h6>
     </div>
   )
 }

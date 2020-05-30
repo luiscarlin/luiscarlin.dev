@@ -64,13 +64,33 @@ h4 {
   }
 }
 
-p {
+h5 {
   font-size: 2rem;
   font-weight: 400;
   color: $black;
 
   @media (max-width: $screen-xs) {
     font-size: 1.5rem;
+  }
+}
+
+h6 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: $black;
+
+  @media (max-width: $screen-xs) {
+    font-size: 1.4rem;
+  }
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: $black;
+
+  @media (max-width: $screen-xs) {
+    font-size: 1.4rem;
   }
 }
 
