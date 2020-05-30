@@ -1,0 +1,42 @@
+@import '../../styles/media-breakpoints.scss';
+
+.timeline-card {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3rem;
+
+  @media(max-width: $screen-sm) {
+    flex-direction: column;
+  }
+
+  .date-container {
+    flex: 1;
+    padding-right: 3rem;
+
+    @media(max-width: $screen-sm) {
+      margin-bottom: 1rem;
+    }
+
+    h5 {
+     font-weight: 700;
+    }
+  }
+
+  .content-container {
+    flex: 5;
+
+    .title {
+      margin-bottom: 1rem;
+      font-weight: 700;
+    }
+    .text {
+      margin-bottom: 2rem;
+      line-height: 1.7;
+    }
+
+    .pill-container {
+      display: inline-block;
+      margin: 0 1rem 2rem 0;
+    }
+  }
+}

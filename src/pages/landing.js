@@ -4,11 +4,11 @@ import SocialMediaBar from "../components/SocialMediaBar"
 
 const Landing = () => (
   <div className="welcome">
-    <h4>Hi! I&rsquo;m</h4>
+    <h5>Hi! I&rsquo;m</h5>
     <h1>Luis Carlin</h1>
-    <h2 className="secondary">Full stack Web & Mobile developer</h2>
+    <h3 className="secondary">Full stack Web & Mobile developer</h3>
     <div className="welcome__react_message">
-      <h4 className="secondary">
+      <h5 className="secondary">
         I build things with{" "}
         <a
           href="https://reactjs.org/"
@@ -17,7 +17,7 @@ const Landing = () => (
         >
           React
         </a>
-      </h4>
+      </h5>
       <ReactLogo />
     </div>
 

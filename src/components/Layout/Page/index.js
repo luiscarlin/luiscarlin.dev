@@ -1,11 +1,11 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import Header from "../Header"
-import styles from "./layout.module.scss"
+import Header from "../../Header"
+import "./layout.scss"
 
-const Layout = ({ children, location }) => {
+export default ({ children, location }) => {
   return (
-    <div className={styles.layout}>
+    <div className="layout">
       <Helmet>
         <title>Hey. I'm Luis</title>
         <meta name="description" content="My personal website" />
@@ -15,5 +15,3 @@ const Layout = ({ children, location }) => {
     </div>
   )
 }
-
-export default Layout

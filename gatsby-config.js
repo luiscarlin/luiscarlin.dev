@@ -40,7 +40,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-layout`,
       options: {
-        component: require.resolve(`./src/components/Layout/index.js`),
+        component: require.resolve(`./src/components/Layout/Page/index.js`),
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
