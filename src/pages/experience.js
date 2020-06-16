@@ -113,13 +113,12 @@ const content = [
   {
     date: "August 2017",
     title: "Goodbye IBM 👋 ",
-    text:
-      "I was part of a four week proof of concept for a popular oil company in a team of 6 developers. The goal was to ",
+    text: "",
     tech: [],
   },
   {
-    date: "February 2017",
-    title: "CI and DevOps Engineer at IBM Watson Health",
+    date: "January 2012",
+    title: "Started working at IBM",
     text:
       "I was part of a four week proof of concept for a popular oil company in a team of 6 developers. The goal was to ",
     tech: [
@@ -131,96 +130,6 @@ const content = [
       "Kafka",
       "WebSphere Liberty",
     ],
-  },
-  {
-    date: "August 2016",
-    title: "Infrastructure Developer at IBM Watson Supply Chain",
-    text:
-      "I was part of a four week proof of concept for a popular oil company in a team of 6 developers. The goal was to ",
-    tech: [
-      "Docker",
-      "Swarm",
-      "Bash",
-      "Python",
-      "Ansible",
-      "PowerCLI",
-      "PowerShell",
-      "UrbanCode Deploy",
-      "IBM MQ",
-      "Git",
-      "Github",
-    ],
-  },
-  {
-    date: "October 2015",
-    title: "CI and Cloud Developer at IBM Analytics",
-    text:
-      "I was part of a four week proof of concept for a popular oil company in a team of 6 developers. The goal was to ",
-    tech: [
-      "Jenkins",
-      "PowerCLI",
-      "Docker",
-      "Cloud Foundry",
-      "IBM Bluemix",
-      "UrbanCode Deploy",
-      "Gradle",
-      "Groovy",
-      "Java",
-      "Python",
-      "Git",
-      "Github",
-    ],
-  },
-  {
-    date: "July 2015",
-    title: "Automation Engineer and QA consultant at IBM Analytics",
-    text:
-      "I was part of a four week proof of concept for a popular oil company in a team of 6 developers. The goal was to ",
-    tech: ["Java", "Groovy", "Spock", "Selenium", "REST", "Gradle", "Git"],
-  },
-  {
-    date: "December 2014",
-    title: "Delivery Automation at IBM Analytics",
-    text:
-      "I was part of a four week proof of concept for a popular oil company in a team of 6 developers. The goal was to ",
-    tech: [
-      "IBM UrbanCode Deploy",
-      "Batch",
-      "Powershell",
-      "Oracle Database",
-      "IBM DB2",
-      "IBM WebSphere",
-      "Oracle WebLogic",
-      "JBoss CLI",
-    ],
-  },
-  {
-    date: "October 2013",
-    title: "QA Automation Lead at IBM Analytics",
-    text:
-      "I was part of a four week proof of concept for a popular oil company in a team of 6 developers. The goal was to ",
-    tech: ["Java", "JUnit", "REST", "IBM Rational Team Concert"],
-  },
-  {
-    date: "January 2013",
-    title: "QA Engineer at IBM Analytics",
-    text:
-      "I was part of a four week proof of concept for a popular oil company in a team of 6 developers. The goal was to ",
-    tech: [],
-  },
-  {
-    date: "January 2013",
-    title: "Started Working at IBM",
-    text:
-      "I was part of a four week proof of concept for a popular oil company in a team of 6 developers. The goal was to ",
-    tech: [],
-  },
-  {
-    date: "December 2012",
-    title: "Graduated from the University of Kentucky! 🎓",
-    text:
-      "Finally done with college. Graduated Summa cum laude with a 3.94 GPA. Only had two Bs 😃. I received a degree in Electrical Engineering and a second one in Computer Engineering. I also had a minor in Mathematics and a second minor in Computer Science. Possibly the best 5 years of my life.",
-    tech: [],
   },
 ]
 
