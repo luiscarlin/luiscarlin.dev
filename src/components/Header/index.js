@@ -4,6 +4,7 @@ import "./header.scss"
 import Logo from "./logo.inline.svg"
 
 const links = [
+  { url: "/about-me", text: "about me" },
   { url: "/recent-work", text: "recent work" },
   { url: "/personal-projects", text: "personal projects" },
 ]
