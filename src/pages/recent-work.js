@@ -99,37 +99,10 @@ const content = [
   },
   {
     date: "October 2017",
-    title: "Patient Scheduling Application",
-    text: "Our Team of ",
-    tech: ["React", "Redux", "JavaScript", "PostgreSQL", "Docker", "CircleCI"],
-  },
-  {
-    date: "September 2017",
-    title: "Started working at Pillar Technology 🎊",
+    title: "Physician Scheduling Portal",
     text:
-      "Started working at Pillar Technology, a medium sized consulting firm. In 2019, it would become part of Accenture.",
-    tech: [],
-  },
-  {
-    date: "August 2017",
-    title: "Goodbye IBM 👋 ",
-    text: "",
-    tech: [],
-  },
-  {
-    date: "January 2012",
-    title: "Started working at IBM",
-    text:
-      "I was part of a four week proof of concept for a popular oil company in a team of 6 developers. The goal was to ",
-    tech: [
-      "Jenkins",
-      "Bash",
-      "UrbanCode Deploy with Patterns",
-      "Git",
-      "Gitlab",
-      "Kafka",
-      "WebSphere Liberty",
-    ],
+      "Our team of 8 developers built a web application to allow patients to schedule medical services with their physicians or find new ones. The web application is currently used my thousands of patients in Ohio.",
+    tech: ["React", "Redux", "JavaScript", ".NET", "Jenkins"],
   },
 ]
 
