@@ -136,7 +136,7 @@ const content = [
 export default () => {
   return (
     <>
-      <PageTitle>experience</PageTitle>
+      <PageTitle>recent work</PageTitle>
       {content.map((entry, index) => (
         <TimelineCard {...entry} key={index} />
       ))}

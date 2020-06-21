@@ -4,8 +4,8 @@ import "./header.scss"
 import Logo from "./logo.inline.svg"
 
 const links = [
-  { url: "/experience", text: "experience" },
-  { url: "/projects", text: "projects" },
+  { url: "/recent-work", text: "recent work" },
+  { url: "/personal-projects", text: "personal projects" },
 ]
 
 export default ({ pathname }) => {
