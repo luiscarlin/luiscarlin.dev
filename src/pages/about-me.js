@@ -12,14 +12,14 @@ const content = [
   {
     date: "September 2017",
     title: "Started working at Pillar Technology",
-    text:
-      "Started working at Pillar Technology, a medium sized consulting firm. In March 2019, it would become part of Accenture.",
+    text: "In March 2019, it would become part of Accenture.",
     tech: [],
   },
   {
     date: "August 2017",
-    title: "Goodbye IBM 👋 ",
-    text: "",
+    title: "Goodbye IBM 👋",
+    text:
+      "Learned a lot of technologies, but also the disadvantages of working in multi-national company like corporate rules and red tape.",
     tech: [],
   },
   {
@@ -31,18 +31,19 @@ const content = [
   {
     date: "December 2012",
     title: "Graduated from the University of Kentucky",
-    text: "",
+    text:
+      "Graduated from the University of Kentucky with degrees in Electrical Engineering and Computer Engineering as well as minors in Mathematics and Computer Science. In my 5 years in college I obtained Bs in only 2 courses. My GPA was 3.94 out of 4. Very proud of that.",
     tech: [],
   },
   {
     date: "May 2012",
-    title: "Intership at Lexmark",
-    text: "",
-    tech: [],
+    title: "Software Development Intership at Lexmark",
+    text: "Worked at Lexmark for 6 months ",
+    tech: ["Python"],
   },
   {
     date: "May 2011",
-    title: "Internship Escent Technologies",
+    title: "Internship with Escent Technologies",
     text: "",
     tech: [],
   },
